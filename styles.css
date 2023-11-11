@@ -1,12 +1,15 @@
 
 * {
     margin: 0;
+    font-family: sans-serif;
+    background-color: #4f88c6;
 }
 
 header {
     width: 100vw;
     height: 90px;
-    background-color: lightblue;
+    background-color: #4f88c6;
+    margin-bottom: 3em;
 }
 
 nav {
@@ -25,11 +28,18 @@ a {
     font-size: 1.5em;
     text-transform: uppercase;
     text-decoration: none;
-    color: black;
-    padding: 1.4em;
+    color: #fffffd;
+    padding: 1em;
+    border: 1px solid #fffffd;
+    border-radius: 50px;
 }
 
 a:hover {
-    background-color: black;
-    color: lightblue;
+    background-color: #fffffd;
+    color: #457d97;
+}
+
+main {
+    background-color: #4f88c6;
+    color: #fffffd;
 }
