@@ -3,19 +3,23 @@
     margin: 0;
     font-family: sans-serif;
     background-color: #4f88c6;
+    /* border: 1px solid black; */
 }
 
 header {
-    width: 100vw;
+    width: 100%;
     height: 90px;
     background-color: #4f88c6;
     margin-bottom: 3em;
 }
 
 nav {
-    width: 80%;
+    width: 100%;
 }
 
+nav ul {
+    padding: 0;
+}
 header, nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -40,6 +44,57 @@ a:hover {
 }
 
 main {
+    width: 50vw;
+    margin: 0 auto;
     background-color: #4f88c6;
     color: #fffffd;
+}
+
+h1, h2, main > ul {
+    margin-bottom: 1em;
+}
+
+h1, h2 {
+    margin-top: 1em;
+}
+
+h1 {
+    text-align: center;
+}
+
+main li {
+    margin: 0.8em 0;
+}
+
+form {
+    text-align: center;
+    padding: 1.5em;
+}
+
+input[type="text"], input[type="email"] {
+    width: 250px;
+    height: 20px;
+    background-color: #fffffde3;
+    margin-right: 4.1em;
+}
+
+input[type="email"] {
+    margin-left: 0.6em;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    margin: 0 1em;
+}
+
+input[type="submit"] {
+    width: 100px;
+    height: 30px;
+    background-color: #fffffde3;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #4f88c6;
+    color: #fffffde3;
+    border: 1px solid #fffffde3;
 }
